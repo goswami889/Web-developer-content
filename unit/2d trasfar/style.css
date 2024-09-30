@@ -1,0 +1,13 @@
+div{
+    border: solid black;
+    background-color: aqua;
+    padding: 3%;
+    width: 250px;
+    height: 150px;
+    margin: 20%;
+   
+}
+.box{
+   transform: translate(200px,150px);
+   transform: rotateX(30deg);
+}

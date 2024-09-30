@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>CSS Specificity</h1>
+        <p>
+          If there are two or more CSS rules that point to the same element, the
+          selector with the highest specificity value will "win", and its style
+          declaration will be applied to that HTML element.
+        </p>
+        <p>Rank Below High to Low</p>
+        <ul>
+          <li>Inline CSS</li>
+          <li>ID Selector</li>
+          <li>Class Selector</li>
+          <li>Tag Name Selector</li>
+        </ul>
+  
+        <h2>Example Below:</h2>
+        <span class="container" id="spanContainer" style="color: blue">
+          This is used for Check Specificity of CSS Selector
+        </span>
+      </div>
+</body>
+</html>

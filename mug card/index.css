@@ -1,0 +1,10 @@
+.wrapper{
+    background-color: silver;
+    height: 100vh;
+    overflow-y: auto;
+
+}
+.img{
+    height: 400px;
+    width: 300px;
+}

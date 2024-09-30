@@ -1,0 +1,25 @@
+/* Universal Selector */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+/* Nested Selector */
+ul  li{
+    list-style: circle;
+    color: magenta;
+    background-color: #fff000;
+}
+
+/* Attribute Selector  */
+input::placeholder{
+    color: red;
+}
+#date{
+    background-color: #fff000;
+    color: black;
+    margin: 10px;
+    padding: 3px;
+}

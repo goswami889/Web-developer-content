@@ -1,0 +1,22 @@
+.good{
+    border: solid black;
+    height: 300px;
+    width: 350px;
+    display: flex;
+    flex-flow: row wrap;        
+        flex-flow: column wrap;
+        
+
+}
+.box1{
+    background-color: aqua;
+    border: solid black;
+    height: 60px;
+    width: 50px;
+    padding: 5px;
+    margin: 2px;
+    
+    
+    
+
+}

@@ -1,0 +1,21 @@
+.box{
+    width: 205px;
+    height: 150px;
+    border: solid black;
+    padding: 10px;
+    margin: 15px;
+
+}
+#go{
+    color: orange;
+    background-color: aquamarine;
+}
+#on{
+    color: aquamarine;
+    background-color: brown;
+}
+ #no{
+    color: green
+    ;
+    background-color: blue;
+ }

@@ -1,0 +1,25 @@
+html{
+    scroll-behavior: smooth;
+    color: rgb(6, 2, 9);
+    background-image: linear-gradient( blue,yellow,green);
+    
+}
+
+
+.aside{
+    width: 20%;
+    text-align: center;
+    height: 40px;
+    float: left;
+    background-color:rgb(242, 16, 31);
+    margin: 25px;
+    padding: 25px;
+    box-shadow: inset 5px -0 5px rgb(236, 193, 6);
+    top: 10%;
+    text-shadow: 1opx chartreuse;
+    border: 1px solid black;
+    overflow: scroll;
+    position: relative;
+    left: 5px; bottom: 6px;
+
+}

@@ -1,0 +1,28 @@
+div{
+    border: solid black;
+    color: aqua;
+    background-color: blue;
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    display: inline-block;
+
+    
+
+}
+.yo{
+    position: relative;
+    top: 100px;
+    left: 150px;
+
+}
+
+
+
+.no{position: relative;
+    top: 100px;
+    right: 150px;
+
+
+}

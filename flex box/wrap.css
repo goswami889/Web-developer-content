@@ -1,0 +1,18 @@
+.flex-box1 {
+    width: 350px;
+    height: 250px;
+    background-color: aquamarine;
+    border: 2px solid red;
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    
+  }
+
+  .flex-item1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid blue;
+  }

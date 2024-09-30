@@ -1,0 +1,12 @@
+h2{
+    text-shadow: 5px 5px 4px yellow;
+}
+.box{
+    border: solid black;
+    width: 30%;
+  height: 500px;
+    background-color: blue;
+    margin: 20px;
+    text-shadow: 5px 5px 5px green;
+    box-shadow: 5px 5px 5px red;
+}

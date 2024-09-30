@@ -1,0 +1,29 @@
+div{
+    border: solid black;
+    color: aqua;
+    background-color: blue;
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    display: inline-block;
+
+    
+
+}
+.no{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+
+}
+
+.wapper{
+    background-color: red;
+    height: 1000px;
+    width: 3000px;
+}
+/*.no{
+    position: fixed;
+
+}

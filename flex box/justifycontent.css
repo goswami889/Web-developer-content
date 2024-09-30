@@ -1,0 +1,17 @@
+.box1{
+    border: solid black;
+    height: 300px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: flex baseline;
+    justify-content: center;
+    
+}
+.box{
+    background-color: aqua;
+    border: solid black;
+    height: 50px;
+    width: 35px;
+}

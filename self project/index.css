@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+.gon{
+
+   
+    margin-right: 300px;
+    margin-left: 450px;
+    }
+#name{
+    color: rgb(22, 182, 226);
+    font-size: 50px
+    
+}
+#web{
+    color: orange;
+    font-size: 25px;
+}
+#dev{
+    color: blue;
+    font-size: 40px;
+}
+#cv{
+    border: rgb(34, 179, 237);
+    color: rgb(157, 80, 38);
+    font-size: 20px;
+}
+p{
+    color: aliceblue;
+    font-size: 20px;
+}
+#img{
+    position: relative;
+    top: 15px; left: 485px;
+    
+    
+    
+}

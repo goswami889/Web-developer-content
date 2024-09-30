@@ -1,0 +1,23 @@
+.flex-box1{
+    border: solid black;
+    height: 300px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    align-items: first baseline;
+    align-items: flex-end;
+    
+    
+    
+}
+.flex-item1{
+    background-color: aqua;
+    border: solid black;
+    height: 60px;
+    width: 50px;
+    padding: 5px;
+    margin: 2px;
+    
+    
+    
+}

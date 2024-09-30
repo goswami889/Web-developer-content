@@ -1,0 +1,15 @@
+div{border: solid black;
+    background-color: yellow;
+    margin: 20px;
+    height: 150px;
+    width: 100px;
+
+}
+.not{
+    transform: perspective(100px)  rotateX(45deg);
+    margin-left: 50px;
+}
+.box{
+    transform: perspective(10px) translateZ(-10px);
+}
+
