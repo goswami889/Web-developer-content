@@ -34,7 +34,7 @@
   }
 
   .background {
-    transform: translateZ(-40px) scale(6);
+    transform: translateZ(-40px) scale(5);
   }
 
   .foreground {
