@@ -1,0 +1,19 @@
+.contenair{
+    height: 800px;
+    width: 60%;
+    background-color: blue;
+    border: solid black;
+    display: grid;
+    
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 20px;
+         
+}
+.box{
+    height: 100px;
+    width: 70px;
+    border: solid black;
+    background-color: rgb(208, 14, 14);
+    
+}

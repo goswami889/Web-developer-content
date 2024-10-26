@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 700px;
+    height: 500px;
+    background-color: yellow;
+    display: grid;
+    text-align: center;
+    
+    grid-template-areas: 
+    "h h h h"
+    "m c c b"
+    "f f f f"
+    ;
+    gap: 5px;
+}
+
+.box{
+    background-color: #4291cf;
+    border: 2px solid red;
+}
+
+#header
+{
+    grid-area: h;
+}
+
+#main{
+    grid-area: m;
+}
+
+#content{
+    grid-area: c;
+}
+
+#blog{
+    grid-area: b;
+}
+
+#footer{
+    grid-area: f;
+}

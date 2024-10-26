@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    background-color: aqua;
+    height: 400px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 30px 1fr 30px;
+    text-align: center;
+}
+
+.box{
+    background-color: dimgrey;
+    color: #fff;
+    border: 1px solid lightgreen;
+}
+#header
+        {
+            grid-column-start: 1;
+            grid-column-end:5;
+            background-color: yellow;
+        }
+        #footer
+        {
+           grid-column-start: 2;
+           grid-column-end: 5;
+        }
+        #content{
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        #menu{
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+
+        
+        

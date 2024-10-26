@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    height: 700px;
+    width: 600px;
+    background-color: yellow;
+
+    display: grid;
+    gap: 10px;
+
+    grid-template: repeat(2, 100px) / repeat(3, 100px);
+
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+   align-content: center;
+   justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between;
+  }
+  .box {
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 0 1.5rem;
+
+  }
